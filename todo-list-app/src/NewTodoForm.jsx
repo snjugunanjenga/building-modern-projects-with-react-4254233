@@ -4,6 +4,7 @@ import { createTodo } from './todosSlice';
 
 export default function NewTodoForm() {
   const [inputText, setInputText] = useState('');
+
   const dispatch = useDispatch();
 
   return (
